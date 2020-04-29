@@ -1,0 +1,76 @@
+\documentclass[12pts, letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{physics}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\subsubsectionfont{\centering}
+
+\lhead{\sffamily{Quantum Information and Quantum Computation}}
+\rhead{\sffamily{Vibhav Aggarwal}}
+\cfoot{\sffamily{\thepage}}
+\numberwithin{equation}{section}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{postulate}{Postulate}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\numberwithin{definition}{section}
+\numberwithin{theorem}{section}
+\newtheorem*{thesis}{Thesis}
+\newtheorem{exercise}{Exercise}
+\newtheorem*{example}{Example}
+
+\theoremstyle{remark}
+\numberwithin{exercise}{section}
+\newtheorem*{solution}{Solution}
+\pagestyle{fancy}
+
+\setcounter{section}{-1}
+
+\setlength\parindent{0pt}
+\title{Quantum Information and Quantum Computation}
+\author{Vibhav Aggarwal\thanks{Mentored by Neeraj Sohani}}
+\date{April 2020}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+\section{Introduction}
+
+Quantum computation and quantum information is the study of the information processing tasks that can be accomplished using quantum mechanical systems. It is relatively a newer field of research and much work is going on to actually make a functional quantum computer. Big tech companies like Google, Microsoft, Hitachi, Mitsubishi, Nokia, etc. are investing huge amounts of money in research and development of quantum computers.
+\vspace{1em}
+
+But why? What is so special about this field that so many people are interested in it? Turns out, quantum computers offer an essential speed advantage over classical computers. This speed advantage is so significant that many researchers believe that no conceivable amount of progress in classical computation would be able to overcome the gap between the power of a classical computer and the power of a quantum computer!
+\vspace{1em}
+
+For example, the RSA cryptosystem used for transferring data in secure manner is just based on the fact that it is very difficult for a classical computer to factorize large numbers (order of 2048 bits) quickly. Till date there is simply no known algorithm to that efficiently on a classical computer. However, there is an algorithm known as Shor’s algorithm which can just do that really quickly on a quantum computer.
+\vspace{1em}
+
+There are many other algorithms based upon quantum computers and one class of such algorithms is the \textit{quantum search algorithms}. The quantum search algorithm solves
+the following problem: Given a search space of size $N$, and no prior knowledge about the
+structure of the information in it, we want to find an element of that search space satisfying a known property. How long does it take to find an element satisfying that property?
+Classically, this problem requires approximately $N$ operations, but the quantum search algorithm allows it to be solved using approximately $\sqrt{N}$ operations.
+\vspace{1em}
+
+Another important use is \textit{quantum simulation}. Simulation of quantum systems on classical machines is difficult and the space requirement grows exponentially with increasing number of components in the system. But in case of quantum computers, this growth is linear and therefore they can be used in quantum chemistry to simulate large molecules and study the inter-atomic interactions.
+
+\newpage
+\input{qubits}
+\newpage
+\input{IntroToQM}
+% \newpage
+% \input{poa}
+\end{document}
