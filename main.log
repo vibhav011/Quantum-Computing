@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  30 APR 2020 03:45
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.5.5)  11 JUN 2020 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,13 +259,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./main.toc)
+) (./main.toc [1
+
+])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-[1
-
-] [2] (./qubits.tex
+[2] [3] (./qubits.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
@@ -292,7 +292,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--19
 
 File: images/bloch.png Graphic file (type bmp)
 <images/bloch.png>
-) [3] (./IntroToQM.tex
+) [4] (./IntroToQM.tex
 
 ! LaTeX Error: There's no line here to end.
 
@@ -321,7 +321,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[4]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 41--45
 
  []
@@ -354,22 +354,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
-
- []
-
 [6]
+Underfull \hbox (badness 10000) in paragraph at lines 148--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--155
+
+ []
+
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 158--162
 
  []
@@ -379,19 +379,137 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--185
 
  []
 
-[7] [8]
+[8] [9]
 Underfull \hbox (badness 10000) in paragraph at lines 249--252
 
  []
 
-[9] [10]) [11] (./main.aux) ) 
-Here is how much of TeX's memory you used:
- 3881 strings out of 479418
- 56229 string characters out of 5884585
- 321525 words of memory out of 5000000
- 21335 multiletter control sequences out of 15000+600000
- 541527 words of font info for 70 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 44i,18n,49p,735b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
+[10] [11]) [12] (./models.tex
+File: images/turing.png Graphic file (type bmp)
+<images/turing.png>
+[13]
+File: images/UTM.png Graphic file (type bmp)
+<images/UTM.png>
+[14]
+File: images/logic_gates.png Graphic file (type bmp)
+<images/logic_gates.png>
+File: images/half_adder.png Graphic file (type bmp)
+<images/half_adder.png>
+File: images/full_adder.png Graphic file (type bmp)
+<images/full_adder.png>
+[15]
+File: images/3_adder.png Graphic file (type bmp)
+<images/3_adder.png>
+File: images/induction.png Graphic file (type bmp)
+<images/induction.png>
 
-Output written on main.pdf (11 pages).
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16]
+! Undefined control sequence.
+l.101 ...ircuits be consistent, that is, if $m \lt
+                                                   n$ and $x$ is at most $m$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [17] (./quantum_circuits.tex
+File: images/gates.png Graphic file (type bmp)
+<images/gates.png>
+File: images/controlled.png Graphic file (type bmp)
+<images/controlled.png>
+[18]
+File: images/cu.png Graphic file (type bmp)
+<images/cu.png>
+File: images/meter.png Graphic file (type bmp)
+<images/meter.png>
+[19] [20]
+Missing character: There is no − in font cmr10!
+Missing character: There is no − in font cmr7!
+Missing character: There is no − in font cmr7!
+[21]
+Missing character: There is no − in font cmr10!
+) [22] (./fourier.tex
+Missing character: There is no − in font cmr7!
+Missing character: There is no − in font cmr10!
+Missing character: There is no − in font cmr10!
+! Undefined control sequence.
+l.28 $$\ket{j_1,\dots,j_n} \rightarrow \ddfrac
+                                              {\Big(\ket{0} + e^{2\pi i0.j_n...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[23]
+! Undefined control sequence.
+<argument> ...{-l}}\ket {1}\bigg ]}\\ & = \ddfrac 
+                                                  {\Big (\ket {0} + e^{2\pi ...
+l.40 \end{split}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...{-l}}\ket {1}\bigg ]}\\ & = \ddfrac 
+                                                  {\Big (\ket {0} + e^{2\pi ...
+l.40 \end{split}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: images/fourier_circuit.png Graphic file (type bmp)
+<images/fourier_circuit.png>
+! Double superscript.
+l.53 ...et{u}$ and performing the controlled-$U^2^
+                                                  j$ operation, for suitable...
+I treat `x^1^2' essentially like `x^1{}^2'.
+
+[24]
+File: images/phase_est.png Graphic file (type bmp)
+<images/phase_est.png>
+File: images/overall_phase.png Graphic file (type bmp)
+<images/overall_phase.png>
+[25]
+File: images/order_finding.png Graphic file (type bmp)
+<images/order_finding.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26] [27]
+File: images/period_algo.png Graphic file (type bmp)
+<images/period_algo.png>
+) [28] (./distance.tex
+File: images/fidelity.png Graphic file (type bmp)
+<images/fidelity.png>
+[29]
+Missing character: There is no − in font cmr10!
+Missing character: There is no − in font cmr10!
+Missing character: There is no − in font cmr10!
+Missing character: There is no − in font cmr10!
+Missing character: There is no − in font cmr10!
+Missing character: There is no − in font cmr10!
+Missing character: There is no − in font cmr10!
+Missing character: There is no − in font cmr10!
+[30]
+Missing character: There is no ≡ in font cmr10!
+) [31] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 4001 strings out of 479418
+ 58518 string characters out of 5884586
+ 322524 words of memory out of 5000000
+ 21426 multiletter control sequences out of 15000+600000
+ 541543 words of font info for 72 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 44i,21n,54p,1282b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.pdf (31 pages).

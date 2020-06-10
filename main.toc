@@ -1,16 +1,38 @@
-\contentsline {section}{\numberline {0}Introduction}{2}%
-\contentsline {section}{\numberline {1}Quantum bits (qubits)}{3}%
-\contentsline {section}{\numberline {2}Introduction to Quantum Mechanics}{4}%
-\contentsline {subsection}{\numberline {2.1}Linear Algebra}{4}%
-\contentsline {subsubsection}{\numberline {2.1.1}Inner Products}{4}%
-\contentsline {subsubsection}{\numberline {2.1.2}Eigenvectors and eigenvalues}{5}%
-\contentsline {subsubsection}{\numberline {2.1.3}Adjoint and Hermitian operators}{5}%
-\contentsline {subsubsection}{\numberline {2.1.4}Tensor products}{6}%
-\contentsline {subsubsection}{\numberline {2.1.5}Operator functions}{7}%
-\contentsline {subsubsection}{\numberline {2.1.6}The commutator and anti-commutator}{8}%
-\contentsline {subsubsection}{\numberline {2.1.7}The polar and singular value decompositions}{9}%
-\contentsline {subsection}{\numberline {2.2}The postulates of quantum mechanics}{9}%
-\contentsline {subsubsection}{\numberline {2.2.1}State space}{9}%
-\contentsline {subsubsection}{\numberline {2.2.2}Evolution}{9}%
-\contentsline {subsubsection}{\numberline {2.2.3}Quantum measurement}{10}%
-\contentsline {subsubsection}{\numberline {2.2.4}Composite systems}{11}%
+\contentsline {section}{\numberline {0}Introduction}{3}%
+\contentsline {section}{\numberline {1}Quantum bits (qubits)}{4}%
+\contentsline {section}{\numberline {2}Introduction to Quantum Mechanics}{5}%
+\contentsline {subsection}{\numberline {2.1}Linear Algebra}{5}%
+\contentsline {subsubsection}{\numberline {2.1.1}Inner Products}{5}%
+\contentsline {subsubsection}{\numberline {2.1.2}Eigenvectors and eigenvalues}{6}%
+\contentsline {subsubsection}{\numberline {2.1.3}Adjoint and Hermitian operators}{6}%
+\contentsline {subsubsection}{\numberline {2.1.4}Tensor products}{7}%
+\contentsline {subsubsection}{\numberline {2.1.5}Operator functions}{8}%
+\contentsline {subsubsection}{\numberline {2.1.6}The commutator and anti-commutator}{9}%
+\contentsline {subsubsection}{\numberline {2.1.7}The polar and singular value decompositions}{10}%
+\contentsline {subsection}{\numberline {2.2}The postulates of quantum mechanics}{10}%
+\contentsline {subsubsection}{\numberline {2.2.1}State space}{10}%
+\contentsline {subsubsection}{\numberline {2.2.2}Evolution}{10}%
+\contentsline {subsubsection}{\numberline {2.2.3}Quantum measurement}{11}%
+\contentsline {subsubsection}{\numberline {2.2.4}Composite systems}{12}%
+\contentsline {section}{\numberline {3}Models for Computation}{13}%
+\contentsline {subsection}{\numberline {3.1}Turing machines}{13}%
+\contentsline {subsection}{\numberline {3.2}Circuits}{15}%
+\contentsline {section}{\numberline {4}Quantum circuits}{18}%
+\contentsline {subsection}{\numberline {4.1}Single qubit operations}{18}%
+\contentsline {subsection}{\numberline {4.2}Controlled operations}{18}%
+\contentsline {subsection}{\numberline {4.3}Measurement}{19}%
+\contentsline {subsection}{\numberline {4.4}Universal quantum gates}{20}%
+\contentsline {subsubsection}{\numberline {4.4.1}Two-level unitary gates are universal}{20}%
+\contentsline {subsubsection}{\numberline {4.4.2}Single qubit and CNOT gates are universal}{21}%
+\contentsline {section}{\numberline {5}The quantum Fourier transform and its applications}{23}%
+\contentsline {subsection}{\numberline {5.1}The quantum Fourier transform}{23}%
+\contentsline {subsection}{\numberline {5.2}Phase estimation}{24}%
+\contentsline {subsection}{\numberline {5.3}Applications}{26}%
+\contentsline {subsubsection}{\numberline {5.3.1}Application: order-finding}{26}%
+\contentsline {subsubsection}{\numberline {5.3.2}Application: factoring}{26}%
+\contentsline {subsubsection}{\numberline {5.3.3}Application : Period-finding}{28}%
+\contentsline {section}{\numberline {6}Distance measures for quantum information}{29}%
+\contentsline {subsection}{\numberline {6.1}Distance measures for classical information}{29}%
+\contentsline {subsection}{\numberline {6.2}How close are two quantum states?}{30}%
+\contentsline {subsubsection}{\numberline {6.2.1}Trace}{30}%
+\contentsline {subsubsection}{\numberline {6.2.2}Fidelity}{31}%
